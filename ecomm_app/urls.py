@@ -5,9 +5,9 @@ from django.conf.urls.static import static
 from ecomm import settings
 
 urlpatterns = [
-    
-    path('home1',views.home),
-    path('home',views.home),
+    path('',views.home, name='home'),
+    # path('home1',views.home),
+    # path('home',views.home),
     path('about',views.about),
     path('pdetails/<pid>',views.pdetails),
     path('viewcart',views.viewcart),
