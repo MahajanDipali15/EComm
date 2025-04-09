@@ -82,7 +82,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'Dipali15$EcommDatabase',  # use your actual DB name
         'USER': 'Dipali15',          # your PythonAnywhere DB username
-        'PASSWORD': 'EcommDatabase123', # replace with your MySQL password
+        'PASSWORD': 'Dipali@123', # replace with your MySQL password
         'HOST': 'Dipali15.mysql.pythonanywhere-services.com',
         'PORT': '3306',
     }
