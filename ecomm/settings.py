@@ -80,9 +80,9 @@ WSGI_APPLICATION = "ecomm.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Dipali15$Dipali15ecommdb',  # use your actual DB name
+        'NAME': 'Dipali15$EcommDatabase',  # use your actual DB name
         'USER': 'Dipali15',          # your PythonAnywhere DB username
-        'PASSWORD': 'Dipali15', # replace with your MySQL password
+        'PASSWORD': 'EcommDatabase123', # replace with your MySQL password
         'HOST': 'Dipali15.mysql.pythonanywhere-services.com',
         'PORT': '3306',
     }
